@@ -21,6 +21,6 @@ Feature: Checkout
 
     Examples:
       | first  | last   | zip   | expected                    |
-      |        | Tress  | 01100 | First Name is required      |
-      | Daniel |        | 01100 | Last Name is required       |
+      |        | Tress  | 00000 | First Name is required      |
+      | Daniel |        | 00000 | Last Name is required       |
       | Daniel | Tress  |       | Postal Code is required     |
