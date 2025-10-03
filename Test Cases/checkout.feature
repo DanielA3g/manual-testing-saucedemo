@@ -8,7 +8,7 @@ Feature: Checkout
 
   Scenario: Successful checkout with valid data
     When the user proceeds to checkout
-    And enters first name "Daniel", last name "Tress", and postal code "01100"
+    And enters first name "Daniel", last name "Tress", and postal code "00000"
     And confirms the order
     Then the order confirmation message should be displayed
     And the cart should be empty
