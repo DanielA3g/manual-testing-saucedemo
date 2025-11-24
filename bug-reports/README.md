@@ -18,7 +18,7 @@ Bugs are documented in **two complementary formats**:
 ---
 
 # Folder Structure
-
+```
 bug-reports/
 │
 ├── markdown/
@@ -36,10 +36,10 @@ bug-reports/
 ├── bug-0004-checkout-cancel-navigation.feature
 ├── bug-0005-session-timeout-message.feature
 └── ...
-
+```
 ---
 
-Markdown Bug Report Format
+## Markdown Bug Report Format
 
 Every report includes:
 
@@ -80,7 +80,7 @@ Only the “Remove” button appears.
 
 Example:
 ```
-
+```
 @bug @cart
 Scenario: Cannot add more than one unit of the same product (BUG-0002)
 Given the user is logged in
@@ -94,17 +94,17 @@ But currently only the "Remove" button is shown
 
 ## Markdown format:
 
-bug-<ID>-<short-description>.md
+bug-ID-short-description.md
 
 ## Gherkin format:
 
-bug-<ID>-<short-description>.feature
+bug-ID-short-description.feature
 
 ## Examples:
 
-- bug-0001-login-enter-twice.md
+ bug-0001-login-enter-twice.md
 
-- bug-0001-login-enter-twice.feature
+ bug-0001-login-enter-twice.feature
 
 # Evidence
 Screenshots referenced in bug reports are stored in:
