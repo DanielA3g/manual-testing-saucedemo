@@ -21,9 +21,9 @@ The goal of this project is to showcase QA practices for Login, Cart, Checkout, 
 │   ├── Logout.feature
 │   ├── product-sorting-filtering.feature
 │   ├── error-messages-accessibility.feature
-│   └── ...
-│
-├── BugReports/
+│   ├── ...
+│   └── README.md
+├── bug-reports/
 │   ├── Gherkin/
 │   │   ├── bug-0001-login-enter-twice.feature
 │   │   ├── bug-0002-cart-quantity.feature
@@ -33,14 +33,14 @@ The goal of this project is to showcase QA practices for Login, Cart, Checkout, 
 │   │   └── ...
 │   │
 │   └── markdown/
-│       ├── bug-0001-login-enter-twice.md
-│       ├── bug-0002-cart-quantity.md
-│       ├── bug-0003-zipcode-checkout.md
-│       ├── bug-0004-checkout-cancel-navigation.md
-│       ├── bug-0005-login-session-timeout-message.md
-│       └── ...
-│
-├── Screenshots/
+│   │    ├── bug-0001-login-enter-twice.md
+│   │    ├── bug-0002-cart-quantity.md
+│   │    ├── bug-0003-zipcode-checkout.md
+│   │    ├── bug-0004-checkout-cancel-navigation.md
+│   │    ├── bug-0005-login-session-timeout-message.md
+│   │    └── ...
+│   └── README.md
+├── screenshots/
 │   ├── add_product_bug.png
 │   ├── checkout-zipcode-bug.png
 │   ├── login_session_timeout_message.png
