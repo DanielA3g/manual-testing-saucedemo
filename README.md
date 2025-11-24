@@ -161,10 +161,4 @@ All screenshots referenced in bug reports are stored in:
 
 Each file is named after the corresponding bug to maintain consistency.
 
-## Author
 
-Daniel Tress Guzman – Junior QA / Developer
-
-GitHub: https://github.com/DanielA3g
-
-LinkedIn: https://www.linkedin.com/in/daniel-tress-guzman-9a98a4209
